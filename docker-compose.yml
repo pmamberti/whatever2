@@ -3,3 +3,5 @@ version: '3.3'
 services:
   web:
     image: node:9.5.0
+  db:
+    image: postgres:10.2
